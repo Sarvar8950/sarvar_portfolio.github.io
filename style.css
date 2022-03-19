@@ -535,6 +535,12 @@ footer .accounts div i {
   display: none;
 }
 
+.rights {
+  color: #ccc;
+  font-size: 17px;
+  text-align: center;
+}
+
 .topbtn {
   background: #3a6fe2;
   position: relative;
