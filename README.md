@@ -2,5 +2,6 @@
 
 Hello friends 👋
 
-Tech Used :- HTML, CSS, SASS, JavaScript, Font Awesome.
+Tech Used :- HTML, CSS, SCSS, JavaScript, Font Awesome.
 
+I create an design my portfolio by myself. 
