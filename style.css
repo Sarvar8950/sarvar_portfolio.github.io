@@ -22,7 +22,7 @@ body {
 
 .s1 .nav1 {
   position: relative;
-  height: 80px;
+/*   height: 80px; */
   width: 100%;
   z-index: 111;
   border-bottom: 1px solid #ccc;
