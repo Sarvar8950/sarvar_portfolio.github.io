@@ -292,6 +292,18 @@ body {
   }
 }
 
+#experience {
+  width: 800px;
+  margin: auto;
+  position: relative;
+  line-height: 1.6;
+}
+
+#experience ul li {
+  margin-left: 15px;
+  list-style: inside;
+}
+
 #skills {
   position: relative;
   width: 100%;
