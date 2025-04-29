@@ -78,8 +78,6 @@
         </div>
     </section>
     <br>
-    <br>
-    <br>
     <h1 style="text-align: center; font-size: 42px;">Experience</h1>
     <br>
     <section id="experience">
@@ -259,7 +257,7 @@
             <div class="project1" id="proj4">
                 <img src="images/tajneed.png" alt="webpage">
                 <div class="projdetals">
-                    <h1>Tajeed</h1>
+                    <h1>Tajneed</h1>
                     <p class="hidetxt">Tajneed is a Military Recruitment System for Abu Dhabi, this platform where users fill their forms and officers review their form on the Admin portal.</p>
                     <ul>
                         <li>Tajneed is a Military Recruitment System for Abu Dhabi, this platform where users fill their forms and officers review their form on the Admin portal.</li>
@@ -317,6 +315,7 @@
     <script>
         var body = document.querySelector("body")
         var aboutme = document.getElementById("aboutme")
+        var experience = document.getElementById("experience")
         var image = document.getElementById("image")
         var techskills = document.getElementById("techskills")
         var softskills = document.getElementById("softskills")
@@ -339,6 +338,11 @@
                 aboutme.style.transform = 'translateX(100vw)'
             }
             if(top > 15) {
+                experience.style.transform = 'translateX(0)'
+            } else {
+                experience.style.transform = 'translateX(-100vw)'
+            }
+            if(top > 20) {
                 techskills.style.opacity = '1'
             } else {
                 techskills.style.opacity = '0'

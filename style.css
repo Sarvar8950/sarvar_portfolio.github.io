@@ -624,6 +624,13 @@ footer .accounts div i {
     width: 100%;
     padding: 0 15px;
   }
+  #experience {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    line-height: 1.6;
+    padding: 0 15px;
+  }
   .skillsdiv {
     width: 100%;
     padding: 0 15px;
@@ -830,6 +837,13 @@ footer .accounts div i {
   #about .aboutme p {
     font-size: 16px;
     margin: 15px 0;
+  }
+  #experience{
+    line-height: 1.2;
+    font-size: 15px;
+  }
+  #experience h2{
+    font-size: 18px;
   }
   .skillsdiv h2 {
     font-size: 26px;
